@@ -20,9 +20,17 @@ The objective is to compare different regression models and evaluate their perfo
 
 ## 📂 Dataset
 
-This project uses the **MORPH** facial image dataset.
+This project uses the **MORPH** facial image dataset, a benchmark dataset widely used for age estimation research in Computer Vision.
 
-> **Note:** The original image dataset is **not included** in this repository due to its large size and licensing restrictions. Only the processed files required to reproduce the experiments are provided.
+Due to the dataset's **large size** and **licensing restrictions**, the original facial images are **not included** in this repository.
+
+To reproduce the experiments:
+
+1. Obtain the MORPH dataset from an authorized source.
+2. Place the images in the appropriate directory.
+3. Update the dataset path in the notebook if necessary.
+
+Only the source code, documentation, and processed files required to understand the methodology are included in this repository.
 
 ---
 
@@ -86,6 +94,16 @@ Feature extraction:
 
 ---
 
+## 📚 Dataset Reference
+
+The experiments were conducted using the **MORPH** facial image dataset.
+
+For information about dataset availability and licensing, please refer to the official sources:
+
+- MORPH Database
+- Ricanek, K., & Tesafaye, T. (2006). *MORPH: A Longitudinal Image Database of Normal Adult Age-Progression*. Proceedings of the 7th International Conference on Automatic Face and Gesture Recognition.
+
+---
 ## 👨‍🏫 Author
 
 **Valberto Feitosa**
